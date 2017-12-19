@@ -461,7 +461,7 @@ class HyperDown
                 }
 
                 return $self->makeHolder(
-                    "<sup id=\"fnref-{$id}\"><a href=\"#fn-{$id}\" class=\"footnote-ref\">{$id}</a></sup>"
+                    "<sup id=\"fnref-{$id}\"><a href=\"#fn-{$id}\" class=\"footnote-ref\">{&#27880;$id}</a></sup>"
                 );
             },
             $text
